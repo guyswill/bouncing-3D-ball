@@ -1,1 +1,9 @@
-
+#ball {
+    display: block;
+    background: black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    background: radial-gradient(circle at 0px 0px, #5cabff, #000);
+   }
