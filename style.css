@@ -2,9 +2,6 @@ body {
     background-color: #ffca6e;
 }
 
-.container {
-    position: relative;
-}
 
 .container:hover #ball {
     animation: bounce 30s;
