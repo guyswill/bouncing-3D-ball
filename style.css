@@ -60,20 +60,35 @@ body {
         width: 100px;
     }
     11% {
-        transform: translateY(573px);
+        transform: translateY(573px) ;
         height: 50px;
         width: 100px;
+        
 
     }
     20% {
-        transform: translateY(-310px) translateX(700px) rotate(0.05turn) ;
+        transform: translateY(-310px) translateX(1100px) rotate(0.12turn)  ;
         height: 100px;
         width: 50px;
     }
     21% {
-        transform: translateY(-310px) translateX(700px);
+        transform: translateY(-310px) translateX(1100px);
         height: 50px;
         width: 100px;
+    }
+    30% {
+        transform: translateY(30px) translateX(1510px) rotate(-0.15turn);
+        height: 100px;
+        width: 50px;
+    }
+    40% {
+        transform: translateY(573px) translateX(1000px) rotate(0.15turn);
+        height: 100px;
+        width: 50px;
+
+    }   
+    41% {
+        
     }
 
 
