@@ -1,9 +1,15 @@
-body{
-background-color:#ffca6e ;
+body {
+    background-color: #ffca6e;
 }
 
-.container{
+.container {
     position: relative;
+}
+
+.container:hover #ball {
+    animation: bounce 30s;
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
+
 }
 
 #ball {
@@ -12,39 +18,45 @@ background-color:#ffca6e ;
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    margin: 0;
     background: radial-gradient(circle at 0px 0px, #ffca6e, #000);
     position: absolute;
+    top: 300px;
+    left: 300px
 }
 
 #left-hole {
-    display: block;
+    display: inline-block;
     background: black;
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    position: absolute;
-    top: 300px;
-    left: 300px;
-    box-shadow: 
-    0px -3px 17px 7px black,
-    0px 3px 17px 3px white
-    ;
+    margin-top: 16.1%;
+    margin-left: 16.1%;
+    box-shadow:
+        0px -3px 17px 7px black,
+        0px 3px 17px 3px white;
 
 }
 
 #right-hole {
-    display: block;
+    display: inline-block;
     background: black;
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    position: absolute;
-    top: 300px;
-    right: 300px;
-    box-shadow: 
-    0px -3px 17px 7px black,
-    0px 3px 17px 3px white
-    ;
+    margin-top: 16.1%;
+    margin-left: 56%;
+    box-shadow:
+        0px -3px 17px 7px black,
+        0px 3px 17px 3px white;
+
+}
+
+@keyframes bounce {
+    
+    10%{
+        transform: translateY(530px) ; 
+    }
+
 
 }
